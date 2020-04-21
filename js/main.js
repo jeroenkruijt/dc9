@@ -14,10 +14,10 @@ function create(){
 
 function update(){
     if(cursors.right.isDown){
-        logo.x++;
+        logo.x += 5;
     }
     if(cursors.left.isDown){
-        logo.x--;
+        logo.x -= 5;
     }
     if(cursors.up.isDown){
         logo.y--;
